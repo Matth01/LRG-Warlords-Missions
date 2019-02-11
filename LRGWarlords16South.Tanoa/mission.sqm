@@ -110,6 +110,8 @@ class ScenarioData
 	overViewPictureLocked="z\LRG Fundamentals\addons\media\images\billboard.paa";
 	loadScreen="z\LRG Fundamentals\addons\media\images\billboard.paa";
 	saving=0;
+	respawn=3;
+	respawnDelay=20;
 	class Header
 	{
 		gameType="Warlords";
@@ -138,7 +140,7 @@ class CustomAttributes
 					};
 					class value
 					{
-						items=1;
+						items=2;
 						class Item0
 						{
 							class data
@@ -150,7 +152,21 @@ class CustomAttributes
 										"STRING"
 									};
 								};
-								value="None";
+								value="LRG_RespawnOnStartPosition";
+							};
+						};
+						class Item1
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Counter";
 							};
 						};
 					};
@@ -7455,6 +7471,7 @@ class Mission
 					};
 					id=132;
 					type="rhsgref_nat_rifleman";
+					atlOffset=-4.7683716e-007;
 				};
 				class Item2
 				{
@@ -8506,7 +8523,6 @@ class Mission
 			};
 			id=126;
 			type="rhsgref_nat_uaz_spg9";
-			atlOffset=9.5367432e-007;
 		};
 		class Item51
 		{

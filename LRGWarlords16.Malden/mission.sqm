@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=143;
+		nextID=149;
 	};
 	class Camera
 	{
@@ -130,6 +130,8 @@ class ScenarioData
 	overViewPictureLocked="z\LRG Fundamentals\addons\media\images\billboard.paa";
 	loadScreen="z\LRG Fundamentals\addons\media\images\billboard.paa";
 	saving=0;
+	respawn=3;
+	respawnDelay=20;
 	class Header
 	{
 		gameType="Warlords";
@@ -158,7 +160,7 @@ class CustomAttributes
 					};
 					class value
 					{
-						items=1;
+						items=2;
 						class Item0
 						{
 							class data
@@ -170,7 +172,21 @@ class CustomAttributes
 										"STRING"
 									};
 								};
-								value="None";
+								value="LRG_RespawnOnStartPosition";
+							};
+						};
+						class Item1
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Counter";
 							};
 						};
 					};
