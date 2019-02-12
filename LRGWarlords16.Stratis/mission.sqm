@@ -148,22 +148,8 @@ class CustomAttributes
 					};
 					class value
 					{
-						items=2;
+						items=1;
 						class Item0
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="LRG_RespawnOnStartPosition";
-							};
-						};
-						class Item1
 						{
 							class data
 							{
