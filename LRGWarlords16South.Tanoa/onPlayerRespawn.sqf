@@ -1,1 +1,0 @@
-[] execVM "z\LRG Fundamentals\addons\Main\scripts\earplugs\earplugs.sqf";

@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=67;
+		nextID=71;
 	};
 	class Camera
 	{
-		pos[]={9250.1338,284.79135,19349.672};
-		dir[]={-0.60938555,-0.58376068,-0.53660554};
-		up[]={-0.43812412,0.81191367,-0.38579687};
-		aside[]={-0.66089153,5.7416037e-007,0.75052631};
+		pos[]={9196.0918,398.05865,19355.199};
+		dir[]={-0.065476343,-0.87739027,-0.47538573};
+		up[]={-0.11971534,0.47980064,-0.86916959};
+		aside[]={-0.99069172,4.7760477e-007,0.13645039};
 	};
 };
 binarizationWanted=0;
@@ -190,8 +190,22 @@ class CustomAttributes
 					};
 					class value
 					{
-						items=1;
+						items=2;
 						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="LRG_RespawnForWarlords";
+							};
+						};
+						class Item1
 						{
 							class data
 							{

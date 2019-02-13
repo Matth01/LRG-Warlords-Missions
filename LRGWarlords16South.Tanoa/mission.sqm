@@ -12,7 +12,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1830.968,22.935461,7766.3457};
+		pos[]={1830.968,37.884377,7766.3457};
 		dir[]={0.090587564,-0.51338607,-0.85337734};
 		up[]={0.054192785,0.85814953,-0.51052618};
 		aside[]={-0.99442464,-1.4549005e-007,-0.10555936};
@@ -140,8 +140,22 @@ class CustomAttributes
 					};
 					class value
 					{
-						items=1;
+						items=2;
 						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="LRG_RespawnForWarlords";
+							};
+						};
+						class Item1
 						{
 							class data
 							{
